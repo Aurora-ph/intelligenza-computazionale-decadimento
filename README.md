@@ -145,7 +145,7 @@ Parametro	Significato	Valore predefinito
 
 Al termine dell'esecuzione vengono stampate le metriche di classificazione e gli errori della curva. Viene inoltre salvato il grafico risultato_decadimento.png.
 
-# Obiettivo didattico
+# Obiettivo
 
 Il progetto permette di approfondire la simulazione numerica di un fenomeno fisico, la classificazione binaria tramite una rete neurale, il processo di addestramento con SGD e il confronto tra una previsione numerica e un modello teorico.
 
