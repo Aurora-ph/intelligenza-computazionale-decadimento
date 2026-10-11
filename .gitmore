@@ -1,0 +1,14 @@
+# Cache di Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Output del progetto (il grafico generato)
+risultato_decadimento.png
+
+# File di sistema ed editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
