@@ -8,7 +8,7 @@ L'obiettivo è confrontare la curva stimata dalla rete neurale con la curva teor
 
 Il progetto è realizzato in Python e utilizza PyTorch per costruire e addestrare la rete neurale.
 
-Modello fisico
+# Modello fisico
 
 Il decadimento radioattivo viene descritto dalla legge esponenziale:
 
@@ -28,7 +28,7 @@ La costante di decadimento viene calcolata utilizzando il tempo di dimezzamento:
 Il tempo di dimezzamento 𝑇(1/2) rappresenta il tempo necessario affinché il numero medio di atomi radioattivi non ancora decaduti si riduca alla metà.
 
 
-Simulazione dei dati
+# Simulazione dei dati
 
 I tempi di decadimento dei singoli atomi vengono generati utilizzando una distribuzione esponenziale.
 
@@ -47,7 +47,7 @@ La suddivisione viene effettuata a livello di atomo, in modo che le osservazioni
 
 
 
-Architettura della rete neurale
+# Architettura della rete neurale
 
 La rete neurale è realizzata utilizzando PyTorch e contiene:
 
@@ -64,7 +64,7 @@ La probabilità stimata rappresenta la probabilità che un atomo sia ancora inte
 
 
 
-Addestramento
+# Addestramento
 
 La funzione di errore utilizzata è BCEWithLogitsLoss, adatta a problemi di classificazione binaria.
 
@@ -76,7 +76,7 @@ In questa implementazione, ogni aggiornamento utilizza l'intero training set.
 
 
 
-Metriche di valutazione
+# Metriche di valutazione
 
 Per valutare la classificazione vengono calcolate le seguenti metriche:
 
@@ -97,7 +97,7 @@ Queste ultime due metriche misurano la differenza tra i conteggi previsti dalla 
 
 
 
-Grafico finale
+# Grafico finale
 
 Il programma genera un grafico che mostra:
 
@@ -109,7 +109,7 @@ Il grafico viene salvato nel file risultato_decadimento.png.
 
 Il confronto permette di valutare visivamente quanto la rete riesca a ricostruire l'andamento esponenziale del fenomeno.
 
-Requisiti
+# Requisiti
 
 Per eseguire il progetto sono necessari:
 
@@ -123,7 +123,7 @@ Installa le librerie necessarie dal terminale con il comando:
 
 python -m pip install numpy torch matplotlib
 
-Esecuzione
+# Esecuzione
 
 Per avviare il programma con i parametri predefiniti:
 
@@ -145,7 +145,7 @@ Parametro	Significato	Valore predefinito
 
 Al termine dell'esecuzione vengono stampate le metriche di classificazione e gli errori della curva. Viene inoltre salvato il grafico risultato_decadimento.png.
 
-Obiettivo didattico
+# Obiettivo didattico
 
 Il progetto permette di approfondire la simulazione numerica di un fenomeno fisico, la classificazione binaria tramite una rete neurale, il processo di addestramento con SGD e il confronto tra una previsione numerica e un modello teorico.
 
