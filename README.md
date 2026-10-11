@@ -105,7 +105,7 @@ python -m pip install numpy torch matplotlib
 ```
 
 ### Esecuzione
-> ⚠️ **Nota:** Assicurati di salvare il file di codice con il nome `classificazione_decadimento.py` prima di eseguire i comandi seguenti.
+ **Nota:** Assicurati di salvare il file di codice con il nome `classificazione_decadimento.py` prima di eseguire i comandi seguenti.
 
 Per avviare il programma con i parametri predefiniti:
 
