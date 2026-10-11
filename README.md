@@ -17,7 +17,7 @@ Il decadimento radioattivo viene descritto dalla legge esponenziale:
 
 dove:
 * **N(t)** è il numero medio di atomi superstiti al tempo t;
-* **N₀** è il numero iniziale di atomi;
+* **N0** è il numero iniziale di atomi;
 * **t** è il tempo trascorso;
 * **λ** è la costante di decadimento.
 
