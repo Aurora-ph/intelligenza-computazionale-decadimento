@@ -13,7 +13,7 @@ Il progetto è realizzato in Python e utilizza PyTorch per costruire e addestrar
 ### Modello fisico
 Il decadimento radioattivo viene descritto dalla legge esponenziale:
 
-\[N(t) = N_0 \cdot e^{-\lambda t}\]
+𝑁(𝑡) = 𝑁0*𝑒^(−𝜆𝑡)
 
 dove:
 * **N(t)** è il numero medio di atomi superstiti al tempo t;
@@ -23,9 +23,10 @@ dove:
 
 La costante di decadimento viene calcolata utilizzando il tempo di dimezzamento:
 
-\[\lambda = \frac{\ln(2)}{T_{1/2}}\]
+𝜆 = ln(2)/ 𝑇(1/2)
 
-Il tempo di dimezzamento \(T_{1/2}\) rappresenta il tempo necessario affinché il numero medio di atomi radioattivi non ancora decaduti si riduca alla metà.
+
+Il tempo di dimezzamento T(1/2) rappresenta il tempo necessario affinché il numero medio di atomi radioattivi non ancora decaduti si riduca alla metà.
 
 ### Simulazione dei dati
 I tempi di decadimento dei singoli atomi vengono generati utilizzando una distribuzione esponenziale.
